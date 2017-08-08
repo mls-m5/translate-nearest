@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
     // auto wordlist = loadWordlist();
     Wordlist wordlist;
     if (argc < 2) {
-        cout << "please input a word" << endl;
+        // cout << "please input a word" << endl;
         while (cin && !cin.eof()) {
             string word;
             cin >> word;
@@ -82,16 +82,16 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    cout << "input: ";
-    for (auto w: inputWords) {
-        cout << w << " ";
-    }
-    cout << endl;
+    // cout << "input: ";
+    // for (auto w: inputWords) {
+    //     cout << w << " ";
+    // }
+    // cout << endl;
 
     auto outputWords = wordlist.translateSentense(inputWords);
 
 
-    cout << "output: ";
+    // cout << "output: ";
     for (auto w: outputWords) {
         cout << w << " ";
     }

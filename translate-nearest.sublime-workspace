@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"translate\t(Makefile)"
+			],
+			[
 				"getele",
 				"getElementById\t( elementId: DOMString ): Element Document"
 			],
@@ -331,7 +335,8 @@
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 45,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -339,16 +344,46 @@
 			"file": "main.cpp",
 			"settings":
 			{
-				"buffer_size": 153,
+				"buffer_size": 1993,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "translate.php",
+			"settings":
+			{
+				"buffer_size": 1642,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "translate.php"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 364,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "index.html"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 506,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "main.js"
 			}
 		},
 		{
 			"file": "levenshtein_distance.h",
 			"settings":
 			{
-				"buffer_size": 873,
+				"buffer_size": 931,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -393,10 +428,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 72.0,
-		"last_filter": "rename",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rena",
+				"File: Rename"
+			],
 			[
 				"rename",
 				"File: Rename"
@@ -580,10 +619,11 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mattias/Prog/Experiment/translate-nearest"
+		"/home/www/translate-nearest"
 	],
 	"file_history":
 	[
+		"/home/www/translate-nearest/wordlist.txt",
 		"/home/mattias/Prog/Experiment/ai/py3/nearestneighbour.py",
 		"/home/mattias/Prog/Experiment/ai/x/utils.py",
 		"/home/mattias/Prog/Experiment/ai/cs231nlib/utils.py",
@@ -710,12 +750,11 @@
 		"/home/mattias/Prog/Experiment/vb2ts/app.min.js",
 		"/home/mattias/Prog/Experiment/vb2ts/Makefile",
 		"/home/mattias/Dropbox/Dokument/Jenny/src/player.ts",
-		"/home/mattias/Dropbox/Dokument/Jenny/style.css",
-		"/home/mattias/Dropbox/Dokument/Jenny/.gitignore"
+		"/home/mattias/Dropbox/Dokument/Jenny/style.css"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -730,6 +769,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sani ",
 			"pep8_ignore",
 			"settings",
 			"load(",
@@ -856,8 +896,7 @@
 			"finishRound",
 			"restart_button",
 			"timer_container",
-			"dvorak",
-			"corrected"
+			"dvorak"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -907,30 +946,30 @@
 	"folders":
 	[
 		{
-			"path": "/home/mattias/Prog/Experiment/translate-nearest"
+			"path": "/home/www/translate-nearest"
 		}
 	],
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "Makefile",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								22,
+								22
 							]
 						],
 						"settings":
@@ -941,7 +980,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -950,20 +989,82 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 153,
+						"buffer_size": 1993,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								1546,
+								1546
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 749.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "translate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1215,
+								1215
+							]
+						],
+						"settings":
+						{
+							"auto_name": "translate.php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -973,20 +1074,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "levenshtein_distance.h",
+					"buffer": 4,
+					"file": "main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 873,
+						"buffer_size": 506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								92,
-								92
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "levenshtein_distance.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
 							]
 						],
 						"settings":
@@ -997,10 +1127,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 9.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
